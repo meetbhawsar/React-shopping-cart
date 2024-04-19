@@ -1,0 +1,76 @@
+.modelback{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(189, 189, 189 , 0.9);
+}
+
+.modelcontainer{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.lproduct{
+    font-size: 2.4rem;
+    font-family: "work sans" , sans-serif;
+}
+.mproduct{
+    font-size: 1.4rem;
+    font-family: "Source Serif Pro" , serif;
+}
+.mbtn{
+    margin: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+.iteminfo{
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 10px; */
+}
+.iteminfo .pimg img{
+    /* border: 2px solid red; */
+    width: 120px;
+    margin: 5px;
+}
+.iteminfo .ptitle p{
+    font-weight: 600;
+    margin-top: 38%;
+    margin-left: 10px;
+}
+.iteminfo .plusminus {
+    margin-top: 7%;
+    margin-left: 30px;
+}
+.iteminfo .plusminus .minus {
+    margin: 5px;
+    cursor: pointer;
+}
+.iteminfo .plusminus .plus {
+    margin: 5px;
+    cursor: pointer;
+}
+.iteminfo .plusminus .mpt {
+    width: 40px;
+    text-align: center;
+}
+.iteminfo .price {
+    margin-top: 7%;
+    margin-left: 30px;
+}
+.iteminfo .delete {
+    margin-top: 7%;
+    margin-left: 40px;
+    cursor: pointer;
+}
